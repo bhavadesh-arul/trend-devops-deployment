@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Vennilavan12/Trend.git'
+                git branch: 'main', url: 'https://github.com/bhavadesh-arul/trend-devops-deployment.git'
             }
         }
 
