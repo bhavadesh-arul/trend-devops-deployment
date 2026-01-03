@@ -178,5 +178,3 @@ GitHub: [https://github.com/bhavadesh-arul](https://github.com/bhavadesh-arul)
 This project demonstrates real-world DevOps practices including **automation, containerization, cloud deployment, and monitoring** using industry-standard tools. The pipeline is production-oriented and follows best practices.
 
 ---
-Say **what you want next**.
-
