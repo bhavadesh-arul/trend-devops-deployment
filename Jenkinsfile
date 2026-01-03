@@ -33,7 +33,7 @@ pipeline {
         stage('Deploy to EKS') {
             steps {
                 sh '''
-                export KUBECONFIG=/home/ubuntu/kubeconfig
+                export KUBECONFIG=/var/lib/jenkins/.kube/config
                 kubectl apply -f k8s/deployment.yaml
                 kubectl apply -f k8s/service.yaml
                 '''
